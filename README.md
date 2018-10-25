@@ -1,6 +1,12 @@
-# Practice
+# Quotes
+
+### Quotes is a website where users can add quotes from their favorite people and other users can view them and vote on whether they like them or not.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+
+## Features 
+
+An input field to pust a quote with the person who said it. and a viewing section where you could view other quotes.
 
 ## Development server
 
@@ -25,3 +31,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Contributers
+
+Wema Mugofwa
+
+## License 
+
+MIT license
