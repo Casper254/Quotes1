@@ -1,6 +1,6 @@
 <div style="text-align:center">
 
-<h1>Angular Practice</h1>
+<h1>Quotes</h1>
 <hr>
 </div>
 
@@ -11,16 +11,15 @@
   </div>
 
   <div class="row" *ngFor="let goal of goals;let i = 'index'">
-      <div class="card col-3">
-          <h4 id="{{i}}" appStrikethrough>{{goal.name}} due on {{goal.completeDate|date|uppercase}}</h4>
-          <button class="btn btn-primary" (click)='toggleDetails(i)'>Toogle Details</button>
+      <div class="row">
+          <h4 id="{{i}}" appStrikethrough>{{goal.name}} expires on {{goal.completeDate|date|uppercase}}</h4>
+          <button class="btn btn-primary" (click)='toggleDetails(i)'>Toogle Quotes</button>
       </div>
       
       <div class="row" *ngIf="goal.showDescription">
       <app-goal-details  [goal]='goal' (isComplete)= 'deleteGoal($event,i)'></app-goal-details>
   </div>
     
-</div>
+  </div>
 
-<h3 *ngIf='goals.length > 5'>You have too many goals</h3>
 </div>

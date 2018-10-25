@@ -10,12 +10,12 @@ import { GoalFormComponent } from '../goal-form/goal-form.component';
 export class GoalComponent implements OnInit {
 
   goals = [
-    new Goal(1,'Watch Finding Nemo', 'Find an online version and watch merlin find his son', new Date(2019,3,14)),
-    new Goal(2,'Buy Cookies', ' I have to buy cookies for the parrot', new Date(2018,11,9)),
-    new Goal(3, 'Get new Phone Case', ' Diana has her birthday coming up soon', new Date(2018,12,12)),
-    new Goal(4, 'Get Dog Food', 'Pupper likes expensive snacks', new Date(2018,0,18)),
-    new Goal(5, 'Solve math homework', ' Damn Math', new Date(2018,2,14)),
-    new Goal(6, 'Plot my world domination plan', 'Cause I am an evil overlord', new Date(2018,3,14)),
+    new Goal(1,'Dr Suess', '"You know youre in love when you cant fall asleep because reality is finally better than your dreams."', new Date(2019,3,14)),
+    new Goal(2,'Stephen King', '"Get busy living or get busy dying"', new Date(2018,11,9)),
+    new Goal(3, 'Eleon Roosevelt', '" A successfull man is one who can lay a frim foundation with the bricks others have throuwn at him"', new Date(2018,12,12)),
+    new Goal(4, 'John F. Kennedy', '"Those who dare to fail miserably can achieve greatly"', new Date(2018,0,18)),
+    new Goal(5, 'Theodore Roosevelt ', '"It is hard to fail, but it is worse never to have tried to succeed"', new Date(2018,2,14)),
+    new Goal(6, 'Mother Theresa', '"Let us always meet each other with smile, for the smile is the beginning of love"', new Date(2018,3,14)),
    ]
    addNewGoal(goal){
      let goalLength = this.goals.length;
